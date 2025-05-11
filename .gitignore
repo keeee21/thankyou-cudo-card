@@ -28,6 +28,8 @@ lerna-debug.log*
 .DS_Store
 
 src/secret/*
+
 # env
 .env
-.env
+
+dist
