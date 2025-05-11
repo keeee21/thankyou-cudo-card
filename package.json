@@ -1,6 +1,5 @@
 {
   "name": "thankyou-cudo-card",
-  "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",

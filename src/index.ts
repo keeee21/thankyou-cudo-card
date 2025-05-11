@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
 import { serve } from '@hono/node-server'
-import { handleSlackCommand } from './usecase/handleSlackCommand.ts'
+import { handleSlackCommand } from './usecase/handleSlackCommand'
 
 const app = new Hono()
 

@@ -1,6 +1,6 @@
-import { generateImage } from '../services/generateImage.ts'
-import { uploadToStorage } from '../services/uploadToStorage.ts'
-import { logToBigQuery } from '../services/logToBigQuery.ts'
+import { generateImage } from '../services/generateImage'
+import { uploadToStorage } from '../services/uploadToStorage'
+import { logToBigQuery } from '../services/logToBigQuery'
 import { randomUUID } from 'crypto'
 
 export async function handleSlackCommand(cmd: Record<string, string>) {
